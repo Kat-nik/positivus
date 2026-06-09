@@ -15,10 +15,10 @@
     position: absolute;
     top: 50%;
     left: 100%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
     height: calc(100% - var(--contactsImageOffsetY) * 2);
     aspect-ratio: 1;
-    background: url('../../images/contacts-bg.svg') center/contain no-repeat;
+    background: url('../images/contacts-bg.svg') center/contain no-repeat;
 
     @include tablet {
       display: none;
